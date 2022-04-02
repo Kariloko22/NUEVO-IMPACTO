@@ -514,19 +514,20 @@
             color: var(--white-text);
         }
         .nav-main ul.nav-menu {
-            display: block;
+            display: grid;
             position:fixed;
             width: 40vw;
             height: 50vh;
             transform: translateX(-50vw);
             transition: transform 0.3s ease-in-out;
             margin-top: 60px;
+            
         }
       
         .nav-main ul.nav-menu li {
-            padding-top: 40px;
-             font-size: 15px;
-             text-align:center;
+            place-items: center;
+            text-align: center;
+            font-size: 15px;
         }
       
         .nav-main ul li a{
@@ -536,7 +537,7 @@
       
         .nav-main ul li a:hover {
              border-bottom: 2px solid #856279;
-             color: #74576a;
+             color: #be4995;
         }
       
         .nav-main ul.nav-menu.show {
