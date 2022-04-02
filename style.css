@@ -113,7 +113,7 @@
 
     /* ENCABEZADO */
     .container-encabezado{
-        background-image: url(../ULTIMP/IMG/RedesSociales.webp);
+        background-image: url(IMG/RedesSociales.webp);
         display: block;
         width: 100vw;
         height: 90vh;
@@ -402,7 +402,7 @@
     }
 
     .google-img{
-        background-image: url(../ULTIMP/IMG/perzonalizado\ redes.jpg);
+        background-image: url(IMG/perzonalizado\ redes.jpg);
         opacity: .65;
         grid-column: 1 / 2;
         border-radius: 1rem;
